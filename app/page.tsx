@@ -4,7 +4,7 @@ import Card from "@/components/card";
 export default function Home() {
   return (
     <>
-      <Card title="hello" description="descr"/>
+      <Card title="Card 1" description="This is first card"/>
     </>
   );
 }
