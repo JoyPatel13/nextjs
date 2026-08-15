@@ -1,8 +1,13 @@
-export default function Card(){
+type CardProps = {
+    title : string;
+    description : string;
+}
+
+export default function Card({title , description} : CardProps){
     return(
         <div>
-            <h1>Card Component</h1>
-            <p>This is a simple card component </p>
+            <h1>{title}</h1>
+            <p>{description}</p>
         </div>
     )
 }
